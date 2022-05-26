@@ -1,0 +1,32 @@
+<view style="background-color: rgba(233, 233, 233, 0.973); padding: 2px;border: 1px solid black;">
+  <input class="hr" value="{{input}}"></input>
+  <view class="bottons">
+    <view class="c1">
+      <view id="c11" bindtap="reset">C</view>
+      <view id="c12" bindtap="onclick">7</view>
+      <view id="c13" bindtap="onclick">4</view>
+      <view id="c14" bindtap="onclick">1</view>
+      <view id="c15" bindtap="onclick">%</view>
+    </view>
+    <view class="c2">
+      <view id="c21" bindtap="onclick">÷</view>
+      <view id="c22" bindtap="onclick">8</view>
+      <view id="c23" bindtap="onclick">5</view>
+      <view id="c24" bindtap="onclick">2</view>
+      <view id="c25" bindtap="onclick">0</view>
+    </view>
+    <view class="c3">
+      <view id="c31" bindtap="onclick">x</view>
+      <view id="c32" bindtap="onclick">9</view>
+      <view id="c33" bindtap="onclick">6</view>
+      <view id="c34" bindtap="onclick">3</view>
+      <view id="c35" bindtap="onclick">.</view>
+    </view>
+    <view class="c4">
+      <view id="c41" bindtap="delete">🤡</view>
+      <view id="c42" bindtap="onclick">-</view>
+      <view id="c43" bindtap="onclick">+</view>
+      <view id="c44" bindtap="equal">=</view>
+    </view>
+  </view>
+</view>
